@@ -4,5 +4,22 @@ img.small {
 }
 
 .jumbotron {
-  background-image: url(https://upload.wikimedia.org/wikipedia/en/f/f9/Monopoly_pack_logo.png);
+  text-align: center;
+  background-image: url(http://wallpoper.com/images/00/44/62/38/green-texture_00446238.jpg);
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: gold;
+}
+
+body {
+  background-color: grey;
+}
+
+a {
+  color: black;
+}
+
+footer {
+  margin-bottom: 20px;
+  margin-left: 50px;
 }
