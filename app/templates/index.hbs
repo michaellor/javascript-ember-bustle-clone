@@ -1,0 +1,10 @@
+<h1>Welcome to Hustle!</h1>
+
+We hope you find exactly what you're looking for.
+
+<ul>
+  {{#each model as |story|}}
+    <li>{{story.title}} <br>
+    <img src={{story.image}}></li>
+  {{/each}}
+</ul>
