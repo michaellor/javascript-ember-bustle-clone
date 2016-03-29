@@ -1,3 +1,8 @@
-img {
-  width: 200px
+
+img.small {
+  width: 200px;
+}
+
+.jumbotron {
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/f/f9/Monopoly_pack_logo.png);
 }
