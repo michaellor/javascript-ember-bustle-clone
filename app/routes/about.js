@@ -9,7 +9,13 @@ export default Ember.Route.extend({
     save(params) {
       var newArticle = this.store.createRecord('article', params);
       newArticle.save();
-      this.transitionTo('index');
+      this.transitionTo('about');
+    },
+
+    delete(article) {
+      if(confirm("Are you sure?")) {
+        article.destroyRecord();
+      }
     }
   }
 });

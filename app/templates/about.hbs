@@ -1,2 +1,13 @@
 <h2>ADMIN PAGE</h2>
 {{new-article save="save"}}
+
+<ul>
+  {{#each model as |article|}}
+    <li>
+      {{article.title}}
+      <br>
+      <button {{action 'delete' article}}>Delete Article</button>
+      <br>
+    </li>
+  {{/each}}
+</ul>
